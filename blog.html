@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-172966898-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-172966898-1");
+    </script>
+
+    <!--title & description-->
+    <title>E-Cell NITK | Blogs</title>
+    <meta name="description" content="" />
+    <link
+      rel="icon"
+      href="./src/images/favicon.ico"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link rel="apple-touch-icon" href="./src/images/apple-touch-icon.png" />
+
+    <!--seo tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--stylesheets-->
+    <!--bootstrap for grids, 
+				data-aos for div animations,
+				hover for on-hover animations-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--main-->
+    <section id="blog" class="container-fluid">
+      <div class="row">
+        <header class="col-12">
+          <!--navigation-->
+          <nav id="header" class="text-right navbar">
+            <!--hamburger menu icon-->
+            <a href="/" class="text-left"
+              ><img id="nav-logo" src="./src/images/logo_ecell.svg" alt=""
+            /></a>
+            <img
+              id="menu"
+              onclick="openNav()"
+              src="./src/images/icon_menu.svg"
+              alt="menu"
+            />
+            <!--sidenav-->
+            <div id="sidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <a
+                onclick="closeNav()"
+                id="sidenav-name"
+                class="hvr-grow"
+                href="./index.html"
+                >E-CELL NITK</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                tartget="_blank"
+                href="./index.html#about"
+                >About</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                href="./startup-internship-drive.html"
+                >SIP-2020</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                tartget="_blank"
+                target="_blank"
+                href="./courses.html"
+                >Learning Portal</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                href="./blog.html"
+                >Blogs</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                href="./podcasts.html"
+                >Podcasts</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow d-none d-sm-block"
+                href="./index.html#events"
+                >Events</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow d-sm-none"
+                href="./index.html#events-mob"
+                >Events</a
+              >
+              <a
+                onclick="closeNav()"
+                class="text-left hvr-grow"
+                href="./team.html"
+                >Team</a
+              >
+              <a
+                href="https://www.facebook.com/NitkEcell/"
+                class="text-left"
+                target="_blank"
+                ><img
+                  class="hvr-grow"
+                  src="./src/images/logo_facebook.svg"
+                  alt="facebook"
+              /></a>
+              <a
+                href="https://www.instagram.com/ecellnitksurathkal/?hl=en"
+                class="text-left"
+                target="_blank"
+                ><img
+                  class="hvr-grow"
+                  src="./src/images/logo_instagram.svg"
+                  alt="instagram"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/ecellnitksurathkal/about/"
+                class="text-left"
+                target="_blank"
+                ><img
+                  class="hvr-grow"
+                  src="./src/images/logo_linkedin.svg"
+                  alt="linkedin"
+              /></a>
+              <a href="mailto:ecell@nitk.edu.in" class="text-left"
+                ><img
+                  class="hvr-grow"
+                  src="./src/images/logo_email.svg"
+                  alt="gmail"
+              /></a>
+            </div>
+          </nav>
+        </header>
+        <!--first section-->
+        <div class="col-12 mb-5 text-center">
+          <h1>BLOGS</h1>
+        </div>
+        <!--Carousel-->
+      </div>
+    </section>
+    <!--scripts-->
+    <!--next sections-->
+    <section id="blog_description" class="container-fluid pt-5">
+      <div class="row">
+        <!--
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img src="./src/images/extra.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Card title</h5>
+              <p class="card-text text-dark">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img src="./src/images/extra.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Card title</h5>
+              <p class="card-text text-dark">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        -->
+	      
+	  <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img src="https://pulsenitk.in/wp-content/uploads/2020/10/Ecell-Nuture.jpeg" class="card-img-top" alt="..." style="height: 250px"/>
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - VII</h5>
+              <p class="card-text text-dark">
+                “I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do.”
+                  – Edward Everett Hale
+              </p>
+              <a href="https://pulsenitk.in/2020/10/24/ecell-starting-up-in-nitk-7th-edition-nurture/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/09/New-Project-6.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - VI</h5>
+              <p class="card-text text-dark">
+                “ Run from what’s comfortable. Forget Safety. I have tried
+                prudent planning long enough. From now on I am mad. ” – Rumi
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/09/12/ecell-starting-up-in-nitk-6th-edition-smarkt/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/09/logoari1-1.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - V</h5>
+              <p class="card-text text-dark">
+                “You started with curiosity. Only if you believe there is
+                nothing else to lose, There is nothing else to lose.” – Prashant
+                Sachdev
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/09/05/ecell-starting-up-in-nitk-5th-edition-ari-mobility-services/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/08/DIME-1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - IV</h5>
+              <p class="card-text text-dark">
+                “Do what you love and love what you do,This advice is nothing
+                new. Rise to the challenge and say ‘screw it, let’s do it!”
+                -Richard Branson
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/08/29/ecell-starting-up-in-nitk-4th-edition-dime-india/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/08/Oxyheal_logo-1.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - III</h5>
+              <p class="card-text text-dark">
+                “A world full of certainties- all the plans, the vanities. While
+                they say, “You are, dear, but so inadequate”.” -Sanhita Baruah
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/08/22/ecell-starting-up-in-nitk-3rd-edition/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/08/WhatsApp-Image-2020-08-15-at-21.32.05.jpeg"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - II</h5>
+              <p class="card-text text-dark">
+                “ Effort and pain may not be avoided. An individual will push
+                harder and risk more in the company of trustworthy peers.” -Mark
+                Twight
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/08/15/starting-up-in-nitk-2nd-edition/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/08/ECell-Spottedfrog-1.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Starting Up in NITK - I</h5>
+              <p class="card-text text-dark">
+                “Embrace what you don’t know, because what you don’t know can
+                become your greatest asset.” – Sara Blakely
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/08/08/e-cell-presents-starting-up-in-nitk/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/07/ECell-Article-Levelled-up.jpeg"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">E-Cell Levelled Up</h5>
+              <p class="card-text text-dark">
+                “An entrepreneurial spirit might be within but an
+                entrepreneurial community has to be built.” – Yash Harlalka
+                (ECell Con 2020-21)
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/07/25/e-cell-levelled-up/"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 text-center">
+          <div class="card text-center">
+            <img
+              src="https://pulsenitk.in/wp-content/uploads/2020/04/aa-1.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">
+                An Overview of the Entrepreneurship Cell
+              </h5>
+              <p class="card-text text-dark">
+                "Entrepreneurship isn’t just a label, it’s a lifestyle" –
+                Richard Branson, Founder, Virgin Group
+              </p>
+              <a
+                href="https://pulsenitk.in/2020/04/28/a-glimpse-of-entrepreneurship-cell/"
+                target="_blank"
+                class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="col-12">
+      <!--footer-->
+      <footer id="footer">
+        <div id="footer-item1">
+          <div id="footer-item1-1">
+            <h3>EXPLORE</h3>
+            <a href="./index.html">
+              <p>Home</p>
+            </a>
+            <a href="./index.html#about">
+              <p>About Us</p>
+            </a>
+            <a href="./blog.html">
+              <p>Blog</p>
+            </a>
+          </div>
+          <div id="footer-item1-2">
+            <h3>DISCOVER</h3>
+            <a href="./podcasts.html">
+              <p>Podcasts</p>
+            </a>
+            <a class="d-none d-sm-block" href="./index.html#events">
+              <p>Events</p>
+            </a>
+            <a class="d-sm-none" href="./index.html#events-mob">
+              <p>Events</p>
+            </a>
+            <a href="./team.html">
+              <p>Team</p>
+            </a>
+          </div>
+          <div id="footer-item1-3">
+            <h3>INITIATIVES</h3>
+            <a href="./startup-internship-drive.html">
+              <p>SIP</p>
+            </a>
+            <a href="./courses.html">
+              <p>Learning Portal</p>
+            </a>
+          </div>
+        </div>
+        <div id="footer-item2" class="text-center-mobile">
+          <h5>CONTACT US</h5>
+          <a href="https://www.facebook.com/NitkEcell/" target="_blank"
+            ><img
+              class="hvr-grow"
+              src="./src/images/logo_facebook.svg"
+              alt="facebook"
+          /></a>
+          <a
+            href="https://www.instagram.com/ecellnitksurathkal/?hl=en"
+            target="_blank"
+            ><img
+              class="hvr-grow"
+              src="./src/images/logo_instagram.svg"
+              alt="instagram"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/ecellnitksurathkal/about/"
+            target="_blank"
+            ><img
+              class="hvr-grow"
+              src="./src/images/logo_linkedin.svg"
+              alt="linkedin"
+          /></a>
+          <a href="mailto:ecell@nitk.edu.in"
+            ><img
+              class="hvr-grow"
+              src="./src/images/logo_email.svg"
+              alt="gmail"
+          /></a>
+        </div>
+        <div id="footer-item3" class="text-center-mobile">
+          <h3>FEEDBACK</h3>
+          <h6>Facing bugs or issues?<br /></h6>
+          <form
+            action="https://airform.io/rohit.handique.rh@gmail.com"
+            method="post"
+          >
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+            <br />
+            <label for="text"></label>
+            <input type="text" id="text" name="text" placeholder="Message" />
+            <input
+              id="submit"
+              name="submit"
+              type="image"
+              src="./src/images/icon_submit.svg"
+              alt="Submit"
+              height="26.5px"
+              width="auto"
+            />
+          </form>
+        </div>
+        <div id="footer-item4" class="text-center mt-5">
+          <a href="./index.html"
+            ><img src="./src/images/logo_ecell.svg" alt=""
+          /></a>
+          <h3>E-CELL NITK</h3>
+        </div>
+        <div id="footer-item5" class="text-center">
+          <h6>&copy; 2020 E-Cell NITK, All Rights Reserved</h6>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
